@@ -18,8 +18,8 @@ const onRequest = (request, response) => {
       htmlHandler.getPage2(request, response);
       break;
     case '/bling.mp3':
-        mediaHandler.getBling(request, response);
-        break;
+      mediaHandler.getBling(request, response);
+      break;
     case '/bird.mp4':
       mediaHandler.getBird(request, response);
       break;

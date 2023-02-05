@@ -11,19 +11,19 @@ const getIndex = (request, response) => {
 };
 
 const getPage2 = (request, response) => {
-    response.writeHead(200, { 'Content-Type': 'text/html' });
-    response.write(page2);
-    response.end();
-  };
+  response.writeHead(200, { 'Content-Type': 'text/html' });
+  response.write(page2);
+  response.end();
+};
 
 const getPage3 = (request, response) => {
-    response.writeHead(200, { 'Content-Type': 'text/html' });
-    response.write(page3);
-    response.end();
+  response.writeHead(200, { 'Content-Type': 'text/html' });
+  response.write(page3);
+  response.end();
 };
 
 module.exports = {
   getIndex,
   getPage2,
-  getPage3
+  getPage3,
 };
